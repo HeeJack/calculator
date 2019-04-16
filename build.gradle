@@ -5,6 +5,7 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'jacoco'//Jacoco 플러그인 추가
+apply plugin: 'checkstyle'//checkstyle 플러그인 추가
 
 group = 'com.ljw'
 version = '0.0.1-SNAPSHOT'

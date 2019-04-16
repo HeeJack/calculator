@@ -1,5 +1,9 @@
 package com.ljw.calculator;
 import org.springframework.stereotype.Service;
+/**
+ * This is Calculator Service Class
+ * @author heejack
+ */
 @Service
 public class Calculator{
 	int sum(int a, int b){
