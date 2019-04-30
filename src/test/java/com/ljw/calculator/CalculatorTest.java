@@ -1,6 +1,11 @@
 package com.ljw.calculator;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+
+/**
+ *This is Test
+ *
+ */
 public class CalculatorTest{
 	private Calculator calculator = new Calculator();
 
