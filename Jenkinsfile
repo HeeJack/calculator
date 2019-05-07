@@ -59,12 +59,12 @@ pipeline {
             steps {
                 /*sh "docker run -d --rm -p 8090:8090 \
                     --name calculator localhost:5000/juht/calculator"*/
-		sh "docker-compose -d"
+		sh "docker-compose up -d"
             }
         }
         stage ("Acceptance Test"){
             steps {
-                sleep 60
+                sleep 20
                 sh "./acceptance_test.sh"
             }
         }
